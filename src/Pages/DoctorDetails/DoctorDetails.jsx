@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import { docData } from './DocData';
+import './DoctorDetails.css'
 
 const DoctorsDetails = () => {
     // State variable holding the value when the content is changing
@@ -24,7 +25,7 @@ const DoctorsDetails = () => {
                 <Row className='mb-5 mt-5'>
                     {/* right div */}
 
-                    <div className='mainDiv' >
+                    <div className='doc-detail-para' >
                         {
                             docData.map((item, index) => {
                                 return <DoctorBody
