@@ -391,11 +391,7 @@ const Header = (props) => {
 									<Link onClick={() => setExpanded(false)} className={`nav-link ${public_path + '/paid-consultation' === path_url ? "activeLink" : ""}`} to={`${public_path}/paid-consultation`}>ONLINE CONSULTATION</Link>
 									<Link onClick={() => setExpanded(false)} className={`nav-link ${public_path + '/care-plan' === path_url ? "activeLink" : ""}`} to={`${public_path}/care-plan`}>CARE PLAN</Link>
 									{/* <Link onClick={() => setExpanded(false)} className={`nav-link ${public_path + '/blog' === path_url ? "activeLink" : ""}`} to={`${public_path}/blog`}>BLOG</Link> */}
-<<<<<<< HEAD
 									<Link onClick={() => setExpanded(false)} className={`nav-link ${public_path + '/doctor-corner' === path_url ? "activeLink" : ""}`} to={`${public_path}/doctor-corner`}>DOCTOR'S CORNER</Link>
-=======
-									{/* <Link onClick={() => setExpanded(false)} className={`nav-link ${public_path + '/ailment-vs-remedy' === path_url ? "activeLink" : ""}`} to={`${public_path}/ailment-vs-remedy`}>DOCTOR'S CORNER</Link>y */}
->>>>>>> 764fa75e42258951d6a11d4e6df5a75c94597e65
 								</Nav>
 								<div className="toplogin navbar-nav d-flex flex-row justify-content-evenly align-items-center searchbar">
 									<Link onClick={() => setExpanded(false)} className="topcart d-flex align-items-center nav-link my-0" to={`${public_path}/cart`} >

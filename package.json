@@ -4,12 +4,9 @@
   "private": true,
   "homepage": "https://sblglobal.com/",
   "dependencies": {
-<<<<<<< HEAD
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "@react-pdf-viewer/toolbar": "^3.12.0",
-=======
->>>>>>> 764fa75e42258951d6a11d4e6df5a75c94597e65
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -67,8 +64,4 @@
   "resolutions": {
     "autoprefixer": "10.4.5"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 764fa75e42258951d6a11d4e6df5a75c94597e65

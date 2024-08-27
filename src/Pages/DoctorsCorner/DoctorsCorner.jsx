@@ -7,7 +7,6 @@ import InstaFollow from '../../Components/InstaFollow';
 import Service from '../../Components/Service';
 import { useEffect, useState } from 'react';
 import SubHeader from '../../Components/SubHeader';
-import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Col, Container, Row } from 'react-bootstrap';
