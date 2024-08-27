@@ -1,0 +1,876 @@
+{
+    "currencies": [
+        {
+            "id": 1,
+            "currency_name": "Albania Lek",
+            "currency_code": "ALL",
+            "currency_symbol": "Lek",
+            "currency_rate": 1.433418,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 2,
+            "currency_name": "Afghanistan Afghani",
+            "currency_code": "AFN",
+            "currency_symbol": "؋",
+            "currency_rate": 1.12862,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 3,
+            "currency_name": "Argentina Peso",
+            "currency_code": "ARS",
+            "currency_symbol": "$",
+            "currency_rate": 1.621939,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 4,
+            "currency_name": "Aruba Guilder",
+            "currency_code": "AWG",
+            "currency_symbol": "ƒ",
+            "currency_rate": 0.022498,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 5,
+            "currency_name": "Australia Dollar",
+            "currency_code": "AUD",
+            "currency_symbol": "$",
+            "currency_rate": 0.0181,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 6,
+            "currency_name": "Azerbaijan Manat",
+            "currency_code": "AZN",
+            "currency_symbol": "₼",
+            "currency_rate": 0.021207,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 7,
+            "currency_name": "Bahamas Dollar",
+            "currency_code": "BSD",
+            "currency_symbol": "$",
+            "currency_rate": 0.012497,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 8,
+            "currency_name": "Barbados Dollar",
+            "currency_code": "BBD",
+            "currency_symbol": "$",
+            "currency_rate": 0.025232,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 9,
+            "currency_name": "Belarus Ruble",
+            "currency_code": "BYN",
+            "currency_symbol": "Br",
+            "currency_rate": 0.03155,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 10,
+            "currency_name": "Belize Dollar",
+            "currency_code": "BZD",
+            "currency_symbol": "BZ$",
+            "currency_rate": 0.02519,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 11,
+            "currency_name": "Bermuda Dollar",
+            "currency_code": "BMD",
+            "currency_symbol": "$",
+            "currency_rate": 0.012516,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 12,
+            "currency_name": "Bolivia Bolíviano",
+            "currency_code": "BOB",
+            "currency_symbol": "$b",
+            "currency_rate": 0.085916,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 13,
+            "currency_name": "Bosnia and Herzegovina Convertible Mark",
+            "currency_code": "BAM",
+            "currency_symbol": "KM",
+            "currency_rate": 0.023988,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 14,
+            "currency_name": "Botswana Pula",
+            "currency_code": "BWP",
+            "currency_symbol": "P",
+            "currency_rate": 0.159603,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 15,
+            "currency_name": "Bulgaria Lev",
+            "currency_code": "BGN",
+            "currency_symbol": "лв",
+            "currency_rate": 0.024122,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 16,
+            "currency_name": "Brazil Real",
+            "currency_code": "BRL",
+            "currency_symbol": "R$",
+            "currency_rate": 0.06882,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 17,
+            "currency_name": "Brunei Darussalam Dollar",
+            "currency_code": "BND",
+            "currency_symbol": "$",
+            "currency_rate": 0.017418,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 18,
+            "currency_name": "Cambodia Riel",
+            "currency_code": "KHR",
+            "currency_symbol": "៛",
+            "currency_rate": 51.110704,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 19,
+            "currency_name": "Canada Dollar",
+            "currency_code": "CAD",
+            "currency_symbol": "$",
+            "currency_rate": 0.016107,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 20,
+            "currency_name": "Cayman Islands Dollar",
+            "currency_code": "KYD",
+            "currency_symbol": "$",
+            "currency_rate": 0.010414,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 21,
+            "currency_name": "Chile Peso",
+            "currency_code": "CLP",
+            "currency_symbol": "$",
+            "currency_rate": 11.625286,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 22,
+            "currency_name": "China Yuan Renminbi",
+            "currency_code": "CNY",
+            "currency_symbol": "¥",
+            "currency_rate": 0.08469,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 23,
+            "currency_name": "Colombia Peso",
+            "currency_code": "COP",
+            "currency_symbol": "$",
+            "currency_rate": 55.10116,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 24,
+            "currency_name": "Costa Rica Colon",
+            "currency_code": "CRC",
+            "currency_symbol": "₡",
+            "currency_rate": 8.441471,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 25,
+            "currency_name": "Croatia Kuna",
+            "currency_code": "HRK",
+            "currency_symbol": "kn",
+            "currency_rate": 0.092801,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 26,
+            "currency_name": "Cuba Peso",
+            "currency_code": "CUP",
+            "currency_symbol": "₱",
+            "currency_rate": 0.331679,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 27,
+            "currency_name": "Czech Republic Koruna",
+            "currency_code": "CZK",
+            "currency_symbol": "Kč",
+            "currency_rate": 0.303088,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 28,
+            "currency_name": "Denmark Krone",
+            "currency_code": "DKK",
+            "currency_symbol": "kr",
+            "currency_rate": 0.091826,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 29,
+            "currency_name": "Dominican Republic Peso",
+            "currency_code": "DOP",
+            "currency_symbol": "RD$",
+            "currency_rate": 0.679061,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 30,
+            "currency_name": "East Caribbean Dollar",
+            "currency_code": "XCD",
+            "currency_symbol": "$",
+            "currency_rate": 0.033826,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 31,
+            "currency_name": "Egypt Pound",
+            "currency_code": "EGP",
+            "currency_symbol": "£",
+            "currency_rate": 0.236733,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 32,
+            "currency_name": "El Salvador Colon",
+            "currency_code": "SVC",
+            "currency_symbol": "$",
+            "currency_rate": 0.109342,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 33,
+            "currency_name": "Euro Member Countries",
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "currency_rate": 0.012334,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 34,
+            "currency_name": "Falkland Islands (Malvinas) Pound",
+            "currency_code": "FKP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010543,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 35,
+            "currency_name": "Fiji Dollar",
+            "currency_code": "FJD",
+            "currency_symbol": "$",
+            "currency_rate": 0.027594,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 36,
+            "currency_name": "Ghana Cedi",
+            "currency_code": "GHS",
+            "currency_symbol": "¢",
+            "currency_rate": 0.101789,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 37,
+            "currency_name": "Gibraltar Pound",
+            "currency_code": "GIP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010543,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 38,
+            "currency_name": "Guatemala Quetzal",
+            "currency_code": "GTQ",
+            "currency_symbol": "Q",
+            "currency_rate": 0.096696,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 39,
+            "currency_name": "Guernsey Pound",
+            "currency_code": "GGP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010543,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 40,
+            "currency_name": "Guyana Dollar",
+            "currency_code": "GYD",
+            "currency_symbol": "$",
+            "currency_rate": 2.614595,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 41,
+            "currency_name": "Honduras Lempira",
+            "currency_code": "HNL",
+            "currency_symbol": "L",
+            "currency_rate": 0.307338,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 42,
+            "currency_name": "Hong Kong Dollar",
+            "currency_code": "HKD",
+            "currency_symbol": "$",
+            "currency_rate": 0.098248,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 43,
+            "currency_name": "Hungary Forint",
+            "currency_code": "HUF",
+            "currency_symbol": "Ft",
+            "currency_rate": 4.908613,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 44,
+            "currency_name": "Iceland Krona",
+            "currency_code": "ISK",
+            "currency_symbol": "kr",
+            "currency_rate": 1.720594,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 45,
+            "currency_name": "India Rupee",
+            "currency_code": "INR",
+            "currency_symbol": "₹",
+            "currency_rate": 1,
+            "updated_at": "2022-07-22T08:27:33.000000Z"
+        },
+        {
+            "id": 46,
+            "currency_name": "Indonesia Rupiah",
+            "currency_code": "IDR",
+            "currency_symbol": "Rp",
+            "currency_rate": 187.821112,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 47,
+            "currency_name": "Iran Rial",
+            "currency_code": "IRR",
+            "currency_symbol": "﷼",
+            "currency_rate": 530.060749,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 48,
+            "currency_name": "Isle of Man Pound",
+            "currency_code": "IMP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010543,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 49,
+            "currency_name": "Israel Shekel",
+            "currency_code": "ILS",
+            "currency_symbol": "₪",
+            "currency_rate": 0.043132,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 50,
+            "currency_name": "Jamaica Dollar",
+            "currency_code": "JMD",
+            "currency_symbol": "J$",
+            "currency_rate": 1.902189,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 51,
+            "currency_name": "Japan Yen",
+            "currency_code": "JPY",
+            "currency_symbol": "¥",
+            "currency_rate": 1.720464,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 52,
+            "currency_name": "Jersey Pound",
+            "currency_code": "JEP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010543,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 53,
+            "currency_name": "Kazakhstan Tenge",
+            "currency_code": "KZT",
+            "currency_symbol": "лв",
+            "currency_rate": 6.026444,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 54,
+            "currency_name": "Korea (North) Won",
+            "currency_code": "KPW",
+            "currency_symbol": "₩",
+            "currency_rate": 11.264573,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 55,
+            "currency_name": "Korea (South) Won",
+            "currency_code": "KRW",
+            "currency_symbol": "₩",
+            "currency_rate": 16.430507,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 56,
+            "currency_name": "Kyrgyzstan Som",
+            "currency_code": "KGS",
+            "currency_symbol": "лв",
+            "currency_rate": 0.997286,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 57,
+            "currency_name": "Laos Kip",
+            "currency_code": "LAK",
+            "currency_symbol": "₭",
+            "currency_rate": 187.988497,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 58,
+            "currency_name": "Lebanon Pound",
+            "currency_code": "LBP",
+            "currency_symbol": "£",
+            "currency_rate": 18.895745,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 59,
+            "currency_name": "Liberia Dollar",
+            "currency_code": "LRD",
+            "currency_symbol": "$",
+            "currency_rate": 1.908748,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 60,
+            "currency_name": "Macedonia Denar",
+            "currency_code": "MKD",
+            "currency_symbol": "ден",
+            "currency_rate": 0.756839,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 61,
+            "currency_name": "Malaysia Ringgit",
+            "currency_code": "MYR",
+            "currency_symbol": "RM",
+            "currency_rate": 0.055722,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 62,
+            "currency_name": "Mauritius Rupee",
+            "currency_code": "MUR",
+            "currency_symbol": "₨",
+            "currency_rate": 0.569453,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 63,
+            "currency_name": "Mexico Peso",
+            "currency_code": "MXN",
+            "currency_symbol": "$",
+            "currency_rate": 0.258527,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 64,
+            "currency_name": "Mongolia Tughrik",
+            "currency_code": "MNT",
+            "currency_symbol": "₮",
+            "currency_rate": 39.35917,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 65,
+            "currency_name": "Moroccan-dirham",
+            "currency_code": "MNT",
+            "currency_symbol": " د.إ",
+            "currency_rate": 39.35917,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 66,
+            "currency_name": "Mozambique Metical",
+            "currency_code": "MZN",
+            "currency_symbol": "MT",
+            "currency_rate": 0.798906,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 67,
+            "currency_name": "Namibia Dollar",
+            "currency_code": "NAD",
+            "currency_symbol": "$",
+            "currency_rate": 0.198257,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 68,
+            "currency_name": "Nepal Rupee",
+            "currency_code": "NPR",
+            "currency_symbol": "₨",
+            "currency_rate": 1.598184,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 69,
+            "currency_name": "Netherlands Antilles Guilder",
+            "currency_code": "ANG",
+            "currency_symbol": "ƒ",
+            "currency_rate": 0.022522,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 70,
+            "currency_name": "New Zealand Dollar",
+            "currency_code": "NZD",
+            "currency_symbol": "$",
+            "currency_rate": 0.020077,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 71,
+            "currency_name": "Nicaragua Cordoba",
+            "currency_code": "NIO",
+            "currency_symbol": "C$",
+            "currency_rate": 0.448054,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 72,
+            "currency_name": "Nigeria Naira",
+            "currency_code": "NGN",
+            "currency_symbol": "₦",
+            "currency_rate": 5.199227,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 73,
+            "currency_name": "Norway Krone",
+            "currency_code": "NOK",
+            "currency_symbol": "kr",
+            "currency_rate": 0.125162,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 74,
+            "currency_name": "Oman Rial",
+            "currency_code": "OMR",
+            "currency_symbol": "﷼",
+            "currency_rate": 0.004819,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 75,
+            "currency_name": "Pakistan Rupee",
+            "currency_code": "PKR",
+            "currency_symbol": "₨",
+            "currency_rate": 2.833638,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 76,
+            "currency_name": "Panama Balboa",
+            "currency_code": "PAB",
+            "currency_symbol": "B/.",
+            "currency_rate": 0.012497,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 77,
+            "currency_name": "Paraguay Guarani",
+            "currency_code": "PYG",
+            "currency_symbol": "Gs",
+            "currency_rate": 85.609768,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 78,
+            "currency_name": "Peru Sol",
+            "currency_code": "PEN",
+            "currency_symbol": "S/.",
+            "currency_rate": 0.048627,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 79,
+            "currency_name": "Philippines Peso",
+            "currency_code": "PHP",
+            "currency_symbol": "₱",
+            "currency_rate": 0.703164,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 80,
+            "currency_name": "Poland Zloty",
+            "currency_code": "PLN",
+            "currency_symbol": "zł",
+            "currency_rate": 0.05885,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 81,
+            "currency_name": "Qatar Riyal",
+            "currency_code": "QAR",
+            "currency_symbol": "﷼",
+            "currency_rate": 0.045572,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 82,
+            "currency_name": "Romania Leu",
+            "currency_code": "RON",
+            "currency_symbol": "lei",
+            "currency_rate": 0.060852,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 83,
+            "currency_name": "Russia Ruble",
+            "currency_code": "RUB",
+            "currency_symbol": "₽",
+            "currency_rate": 0.718117,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 84,
+            "currency_name": "Saint Helena Pound",
+            "currency_code": "SHP",
+            "currency_symbol": "£",
+            "currency_rate": 0.01724,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 85,
+            "currency_name": "Saudi Arabia Riyal",
+            "currency_code": "SAR",
+            "currency_symbol": "﷼",
+            "currency_rate": 0.047027,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 86,
+            "currency_name": "Serbia Dinar",
+            "currency_code": "RSD",
+            "currency_symbol": "Дин.",
+            "currency_rate": 1.447811,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 87,
+            "currency_name": "Seychelles Rupee",
+            "currency_code": "SCR",
+            "currency_symbol": "₨",
+            "currency_rate": 0.160821,
+            "updated_at": "2022-07-22T09:33:06.000000Z"
+        },
+        {
+            "id": 88,
+            "currency_name": "Singapore Dollar",
+            "currency_code": "SGD",
+            "currency_symbol": "$",
+            "currency_rate": 0.017407,
+            "updated_at": "2022-07-22T09:33:06.000000Z"
+        },
+        {
+            "id": 89,
+            "currency_name": "Solomon Islands Dollar",
+            "currency_code": "SBD",
+            "currency_symbol": "$",
+            "currency_rate": 0.102132,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 90,
+            "currency_name": "Somalia Shilling",
+            "currency_code": "SOS",
+            "currency_symbol": "S",
+            "currency_rate": 7.315796,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 91,
+            "currency_name": "South Korean Won",
+            "currency_code": "KRW",
+            "currency_symbol": "₩",
+            "currency_rate": 16.430507,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 92,
+            "currency_name": "South Africa Rand",
+            "currency_code": "ZAR",
+            "currency_symbol": "R",
+            "currency_rate": 0.21233,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 93,
+            "currency_name": "Sri Lanka Rupee",
+            "currency_code": "LKR",
+            "currency_symbol": "₨",
+            "currency_rate": 4.536278,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 94,
+            "currency_name": "Sweden Krona",
+            "currency_code": "SEK",
+            "currency_symbol": "kr",
+            "currency_rate": 0.128546,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 95,
+            "currency_name": "Switzerland Franc",
+            "currency_code": "CHF",
+            "currency_symbol": "CHF",
+            "currency_rate": 0.01211,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 96,
+            "currency_name": "Suriname Dollar",
+            "currency_code": "SRD",
+            "currency_symbol": "$",
+            "currency_rate": 0.286414,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 97,
+            "currency_name": "Syria Pound",
+            "currency_code": "SYP",
+            "currency_symbol": "£",
+            "currency_rate": 31.447302,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 98,
+            "currency_name": "Taiwan New Dollar",
+            "currency_code": "TWD",
+            "currency_symbol": "NT$",
+            "currency_rate": 0.374265,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 99,
+            "currency_name": "Thailand Baht",
+            "currency_code": "THB",
+            "currency_symbol": "฿",
+            "currency_rate": 0.459682,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 100,
+            "currency_name": "Trinidad and Tobago Dollar",
+            "currency_code": "TTD",
+            "currency_symbol": "TT$",
+            "currency_rate": 0.084905,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 101,
+            "currency_name": "Turkey Lira",
+            "currency_code": "TRY",
+            "currency_symbol": "₺",
+            "currency_rate": 0.222237,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 102,
+            "currency_name": "Ukraine Hryvnia",
+            "currency_code": "UAH",
+            "currency_symbol": "₴",
+            "currency_rate": 0.459274,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 103,
+            "currency_name": "UAE-Dirham",
+            "currency_code": "AED",
+            "currency_symbol": " د.إ",
+            "currency_rate": 0.045972,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 104,
+            "currency_name": "United Kingdom Pound",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "currency_rate": 0.010471,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 105,
+            "currency_name": "United States Dollar",
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_rate": 0.012516,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 106,
+            "currency_name": "Uruguay Peso",
+            "currency_code": "UYU",
+            "currency_symbol": "$U",
+            "currency_rate": 0.525009,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 107,
+            "currency_name": "Uzbekistan Som",
+            "currency_code": "UZS",
+            "currency_symbol": "лв",
+            "currency_rate": 136.211413,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 108,
+            "currency_name": "Viet Nam Dong",
+            "currency_code": "VND",
+            "currency_symbol": "₫",
+            "currency_rate": 292.941484,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        },
+        {
+            "id": 109,
+            "currency_name": "Yemen Rial",
+            "currency_code": "YER",
+            "currency_symbol": "﷼",
+            "currency_rate": 3.13218,
+            "updated_at": "2022-07-22T09:40:36.000000Z"
+        }
+    ]
+}

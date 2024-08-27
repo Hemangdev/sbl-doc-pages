@@ -1,0 +1,292 @@
+.choose-plan-section {
+  padding: 85px 0px;
+}
+
+.choose-plan-headding {
+  margin-bottom: 90px;
+}
+
+.choose-plan-section .choose-plan-headding h3 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.checkbox-row .form-check {
+  display: block;
+  min-height: 1.5rem;
+  width: 495px;
+  height: 225px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: 2px solid #838383;
+  padding-left: 48px;
+  padding: 22px 20px 7px 37px;
+}
+
+.checkbox-row:hover .form-check {
+  display: block;
+  min-height: 1.5rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: 2px solid #009446;
+  padding-left: 48px;
+  padding: 22px 20px 7px 37px;
+}
+
+.choose-plan-section .form-check-label {
+  font-size: 31px;
+  letter-spacing: -1px;
+  line-height: 39px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Outfit";
+  margin-left: 24px;
+}
+
+.choose-plan-section .checkout-price-1 h2 {
+  font-size: 82px;
+  letter-spacing: -3px;
+  color: #000000;
+  font-weight: 400;
+  font-family: 'Outfit';
+  margin-bottom: 0px;
+  margin-top: 13px;
+  margin-left: 50px;
+}
+
+.choose-plan-section p {
+  font-size: 25px;
+  letter-spacing: -1px;
+  color: #7d7d7d;
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 50px;
+}
+
+.choose-plan-section .checkout-pirce-2 del {
+  font-size: 59px;
+  letter-spacing: -2px;
+  line-height: 79px;
+  color: #000000;
+  margin-bottom: 0px;
+  text-decoration-color: red;
+  font-weight: 400;
+  font-family: 'Outfit', sans-serif;
+}
+
+.membership-right {
+  justify-content: end;
+  display: flex;
+}
+
+.choose-plan-section .checkbox-row:hover .form-check-input {
+  background-color: #009446;
+  border: 7px solid #FFF;
+  outline: 2px solid #009446;
+  background-image: none !important;
+  width: 30px;
+  height: 30px;
+  box-shadow: none;
+}
+
+.choose-plan-section .checkbox-row .form-check-input {
+  background-color: #838383;
+  border: 7px solid #FFF;
+  outline: 2px solid #838383;
+  background-image: none !important;
+  width: 30px;
+  height: 30px;
+  box-shadow: none;
+  margin-left: -5px;
+}
+
+.choose-plan-section .checkbox-row .form-check-input:checked {
+  background-color: #009446;
+  border: 7px solid #FFF;
+  outline: 2px solid #009446;
+  background-image: none !important;
+  width: 30px;
+  height: 30px;
+  box-shadow: none;
+}
+
+.border-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-middle .vr {
+  height: 66%;
+  align-self: center;
+  width: 2px;
+  background-color: #838383;
+  opacity: 100%;
+}
+
+.border-middle .vr:hover {
+  background-color: #009446;
+  opacity: 100%;
+}
+
+.choose-plan-section h3 {
+  font-size: 45px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Outfit";
+}
+
+.choose-plan-section .membershiplist {
+  margin-top: 17px;
+}
+
+.choose-plan-section .membershiplist ul {
+  padding-left: 0px;
+  margin-top: 15px;
+}
+
+.choose-plan-section .membershiplist li {
+  font-size: 21px;
+  letter-spacing: -1px;
+  line-height: 39px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Outfit";
+  display: block;
+}
+
+.choose-plan-section .subscribe-link {
+  margin-top: 60px;
+}
+
+.choose-plan-section .subscribe-link button {
+  width: 402px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Outfit";
+  padding: 0px;
+}
+
+.choose-plan-section .subscribe-link button:focus {
+  box-shadow: none;
+
+}
+
+@media screen and (max-width: 991px) {
+  .border-middle .vr {
+    display: none;
+  }
+
+  .membership-right {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .membership-left {
+    justify-content: center;
+    display: flex;
+
+  }
+
+  .need-assistance p {
+    color: #fff;
+  }
+
+  .need-assistance h3 {
+    color: #fff;
+  }
+
+  .need-assistance h4 {
+    color: #fff;
+  }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .checkbox-row .form-check {
+    width: 460px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 650px) {
+  .checkbox-row .form-check {
+    width: 400px;
+    margin: auto;
+  }
+
+  .choose-plan-section .checkout-price-1 h2 {
+    font-size: 55px;
+  }
+
+  .choose-plan-section .checkout-pirce-2 del {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 649px) and (min-width: 375px) {
+  .checkbox-row .form-check {
+    width: 100%;
+    margin: auto;
+  }
+
+  .choose-plan-section {
+    padding: 30px 0px;
+  }
+
+  .choose-plan-headding {
+    margin-bottom: 30px;
+  }
+
+  .choose-plan-section .choose-plan-headding h3 {
+    font-size: 40px;
+  }
+
+  .choose-plan-section .subscribe-link {
+    margin-top: 20px;
+
+  }
+
+  .choose-plan-section h3 {
+    font-size: 30px;
+  }
+
+  .choose-plan-section .checkout-price-1 h2 {
+    font-size: 50px;
+  }
+
+  .choose-plan-section .checkout-pirce-2 del {
+    font-size: 45px;
+  }
+
+  .explor-lans-link {
+    width: 340px;
+  }
+
+
+
+  .choose-plan-section .subscribe-link button {
+    width: 340px;
+    font-size: 22px;
+  }
+
+  .hero-banner h3 {
+    font-size: 45px;
+  }
+
+  .hero-banner a {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+.accordion-header .accordion-button {
+  line-height: normal;
+}

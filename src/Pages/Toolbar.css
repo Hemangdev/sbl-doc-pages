@@ -1,0 +1,7 @@
+@media (max-width:600px) {
+
+    .bottomButtons{
+        display: flex;
+        gap: 6px;
+    }
+}

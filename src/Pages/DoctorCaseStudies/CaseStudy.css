@@ -1,0 +1,50 @@
+.bannerHeading {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.side-nav {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 16px 0;
+}
+
+.side-nav-heading {
+    padding: 8px 22px;
+    position: relative;
+    font-weight: 600;
+}
+
+.underline {
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    margin-left: 1px;
+    border-bottom: 2px solid black;
+}
+
+.mainDiv {
+    width: 80%;
+}
+.list-nav {
+    list-style: none;
+    font-size: 13px;
+    color: #8b8b8b;
+    font-weight: 600;
+    padding: 12px 22px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.list-nav:hover{
+    color: #1da827;
+}
+
+
+/* Styling the pdf i-frame */
+

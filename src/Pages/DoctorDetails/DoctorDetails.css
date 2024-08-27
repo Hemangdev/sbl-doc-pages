@@ -1,0 +1,14 @@
+.bannerBody {
+    height: 108px;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #9cddf8;
+}
+
+.bannerHeading {
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0; 
+}
