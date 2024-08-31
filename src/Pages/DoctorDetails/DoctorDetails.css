@@ -3,6 +3,10 @@
     width: 100%;
     max-width: 100vw;
     background-color: #9cddf8;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .bannerHeading {
@@ -10,10 +14,23 @@
     font-weight: 600;
     font-size: 50px;
     text-align: center;
-    padding: 20px 0; 
+    /* padding: 20px 0;  */
+}
+.subBannerHeading{
+    font-size: 12px;
+    color: #4065af;
+    cursor: pointer;
 }
 .doc-detail-para{
     width: 80% ;
+}
+
+.cardBox{
+    width: 330px; 
+}
+.cardTitle{
+    font-size: 21px;
+    color: #4065af;
 }
 @media (max-width:600px){
 
@@ -22,6 +39,6 @@
     }
     .bannerHeading{
         font-size: 22px;
-        padding: 40px 0;
+        /* padding: 40px 0; */
     }
 } 

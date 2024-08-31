@@ -17,17 +17,19 @@ const doctorQuiz = [
 ]
 
 const DoctorQuiz = () => {
-    const [selectPdf, setSelectPdf] = useState(doctorQuiz[0])
+    // const [selectPdf, setSelectPdf] = useState(doctorQuiz[0])
 
-    const handleClickChange = (pdf) => {
-        setSelectPdf(pdf)
-    };
+    // const handleClickChange = (pdf) => {
+    //     setSelectPdf(pdf)
+    // };
+
+    
     return (
         <>
             <Banner title='Doctor’s Quiz of the Month' />
             <Container>
                 <Row className='mb-5 mt-5'>
-                    <div className='mainDiv'>
+                    {/* <div className='mainDiv'>
                         {doctorQuiz.map((study, index) => (
                             <div key={index} className='case-study-item mb-5'>
                                 <h5 style={{ color: '#4065af' }}>{selectPdf.title}</h5>
@@ -51,8 +53,11 @@ const DoctorQuiz = () => {
                             </div>
                         ))}
 
-                    </div>
-                    <Col>
+                    </div> */}
+
+
+
+                    {/* <Col>
                         <div className='side-nav shadow-lg pb-4'>
                             <h4 className='side-nav-heading'>Similar Quiz
                                 <div className='underline'></div>
@@ -70,8 +75,17 @@ const DoctorQuiz = () => {
                                 })
                             }
                         </div>
-                    </Col>
+                    </Col> */}
 
+
+                    {doctorQuiz.map((item, index) => {
+                        return <div key={index} className='cardBox'>
+                            <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
+                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                                <h3 className='cardTitle mt-4'>{item.title}</h3>
+                            </a>
+                        </div>
+                    })}
                 </Row>
 
             </Container>
@@ -92,6 +106,16 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
+            <h6 className='subBannerHeading'>
+                Submit your answer on
+                <a
+                    href="https://wa.me/918851654420"
+                    target="_blank"
+                    style={{ textDecoration: 'none', color: 'inherit' }} rel="noreferrer" // Inline style to remove underline and keep text color
+                >
+                    <span> 8851654420</span>
+                </a>
+            </h6>
         </div>
     )
 }

@@ -141,13 +141,17 @@ const DoctorsCorner = () => {
                     <div className='mainDiv' >
                         {
                             doctorCornerData.map((item, index) => {
-                                return <CardBody
-                                    key={index}
-                                    title={item.title}
-                                    desc={item.desc}
-                                    img={item.img}
-                                    redirect={item.redirectTo}
-                                />
+                                return (
+                                    <Link  className='no-underline' to={item.redirectTo}>
+                                        <CardBody
+                                            key={index}
+                                            title={item.title}
+                                            desc={item.desc}
+                                            img={item.img}
+                                            redirect={item.redirectTo}
+                                        />
+                                    </Link>
+                                )
                             })
                         }
                     </div>

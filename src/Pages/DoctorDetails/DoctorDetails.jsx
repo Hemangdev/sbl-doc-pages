@@ -82,6 +82,7 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
+            <h6 className='subBannerHeading'>Guidelines for Doctor’s Journey Submission</h6>
         </div>
     )
 }

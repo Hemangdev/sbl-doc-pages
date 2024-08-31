@@ -17,18 +17,18 @@ const homeoUpdates = [
 
 const Oraganon = () => {
 
-    const [selectPdf, setSelectPdf] = useState(homeoUpdates[0])
+    // const [selectPdf, setSelectPdf] = useState(homeoUpdates[0])
 
-    const handleClickChange = (pdf) => {
-        setSelectPdf(pdf)
-    };
+    // const handleClickChange = (pdf) => {
+    //     setSelectPdf(pdf)
+    // };
 
     return (
         <>
             <Banner title='Organon of Medicine' />
             <Container>
                 <Row className='mb-5 mt-5'>
-                    <div className='mainDiv'>
+                    {/* <div className='mainDiv'>
                         {homeoUpdates.map((study, index) => (
                             <div key={index} className='case-study-item mb-5'>
                                 <h5 style={{ color: '#4065af' }}>{selectPdf.title}</h5>
@@ -52,8 +52,10 @@ const Oraganon = () => {
                             </div>
                         ))}
 
-                    </div>
-                    <Col>
+                    </div> */}
+
+
+                    {/* <Col>
                         <div className='side-nav shadow-lg pb-4'>
                             <h4 className='side-nav-heading'>Similar Updates
                                 <div className='underline'></div>
@@ -71,7 +73,17 @@ const Oraganon = () => {
                                 })
                             }
                         </div>
-                    </Col>
+                    </Col> */}
+
+                    {/* new code for UI as per changes  */}
+                    {homeoUpdates.map((item, index) => {
+                        return <div key={index} className='cardBox'>
+                            <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
+                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                                <h3 className='cardTitle mt-4'>{item.title}</h3>
+                            </a>
+                        </div>
+                    })}
 
                 </Row>
 
