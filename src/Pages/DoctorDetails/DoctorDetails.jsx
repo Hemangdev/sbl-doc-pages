@@ -1,31 +1,49 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import { docData } from './DocData';
+import pdf1 from './Journey of Dr. R.N Wahi.pdf'
 import './DoctorDetails.css'
 
 const DoctorsDetails = () => {
+
+    const doctorsList = [
+        {
+            id: 1,
+            title: 'Journey Of Doctor R.N Wahi',
+            pdf1: pdf1,
+        },
+
+
+
+    ]
+
+
+
     // State variable holding the value when the content is changing
-    const [selectedDoctor, setselectedDoctor] = useState(docData[0])
+
+
+    // const [selectedDoctor, setselectedDoctor] = useState(docData[0])
 
 
 
     // Function to change the values when clicked
-    const handleClickChange = (doctor) => {
-        setselectedDoctor(doctor)
-    };
+
+
+    // const handleClickChange = (doctor) => {
+    //     setselectedDoctor(doctor)
+    // };
 
 
 
     return (
         <>
-            <Banner title={`Journey of ${selectedDoctor.docName}`} />
+            <Banner title='Journey Of Doctor' />
 
             <Container>
                 <Row className='mb-5 mt-5'>
                     {/* right div */}
 
-                    <div className='doc-detail-para' >
+                    {/* <div className='doc-detail-para' >
                         {
                             docData.map((item, index) => {
                                 return <DoctorBody
@@ -39,9 +57,19 @@ const DoctorsDetails = () => {
                                 />
                             })
                         }
-                    </div>
+                    </div> */}
+                    {doctorsList.map((item, index) => {
+                        return <div key={index} className='cardBox'>
+                            <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
+                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                                <h3 className='cardTitle mt-4'>{item.title}</h3>
+                            </a>
+                        </div>
+                    })}
+
+
                     {/* left-side bar menu */}
-                    <Col>
+                    {/* <Col>
                         <div className='side-nav shadow-lg pb-4'>
                             <h4 className='side-nav-heading'>Explore Doctors
                                 <div className='underline'></div>
@@ -61,7 +89,7 @@ const DoctorsDetails = () => {
                                 }
                             </div>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
 
 
