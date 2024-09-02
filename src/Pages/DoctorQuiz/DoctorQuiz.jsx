@@ -11,6 +11,7 @@ const doctorQuiz = [
     {
         id: 1,
         title: 'DOCTOR’S QUIZ OF THE MONTH (September)',
+        img:'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
         pdf1: pdf1
     },
 
@@ -81,7 +82,7 @@ const DoctorQuiz = () => {
                     {doctorQuiz.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                            <img style={{ borderRadius: '20px', width: '300px', height: '200px', objectFit: 'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>

@@ -9,7 +9,29 @@ import '../Toolbar.css'
 const diseaseData = [
     {
         id: 1,
-        title: 'PARKINSON’S DISEASE',
+        title: "Parkinson's Disease",
+        img:'https://media.istockphoto.com/id/669895948/photo/scientist-holding-pill-bottle-and-digital-tablet.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q8J_Y-rQbzZXKnTXBqtDVLqYjLkxMGyRNV02oVxBtlo=',
+        pdf1: pdf1
+
+    },
+    {
+        id: 2,
+        title: 'Allergic Rhinitis (Hay Fever)',
+        img:'https://images.unsplash.com/photo-1564316911608-6b51e3a3cf3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvbWVvcGF0aHl8ZW58MHx8MHx8fDA%3D',
+        pdf1: pdf1
+
+    },
+    {
+        id: 3,
+        title: 'Migraine Headaches',
+        img:'https://images.unsplash.com/photo-1676852148076-7a92002419f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9tZW9wYXRoeXxlbnwwfHwwfHx8MA%3D%3D',
+        pdf1: pdf1
+
+    },
+    {
+        id: 4,
+        title: 'Anxiety and Stress Disorders',
+        img:'https://images.unsplash.com/photo-1564683214968-fa3d0c31f23c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVvcGF0aHl8ZW58MHx8MHx8fDA%3D',
         pdf1: pdf1
 
     },
@@ -81,7 +103,7 @@ const Diseases = () => {
                     {diseaseData.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                                <img style={{ borderRadius: '20px',width:'300px',height:'200px',objectFit:'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>

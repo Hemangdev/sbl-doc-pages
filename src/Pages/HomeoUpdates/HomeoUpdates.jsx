@@ -7,9 +7,29 @@ import pdf1 from './PdfData/homeo-pdf-1.pdf';
 const homeoUpdates = [
     {
         id: 1,
-        title: 'HOMOEO UPDATES',
+        title: 'Homeo Updates',
+        img:'https://plus.unsplash.com/premium_photo-1661425502756-4cee84bedbfc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWVvcGF0aHklMjAlMjBuZXdzfGVufDB8fDB8fHww',
         pdf1: pdf1
     },
+    {
+        id: 2,
+        title: 'Homeopathy in Pediatrics',
+        img:'https://plus.unsplash.com/premium_photo-1671098088734-8b8532731aef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        pdf1: pdf1
+    },
+    {
+        id: 3,
+        title: 'Homeopathy vs. Placebo',
+        img:'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        pdf1: pdf1
+    },
+    {
+        id: 4,
+        title: 'Integrative Medicine and Homeopathy',
+        img:'https://images.unsplash.com/photo-1509789129199-7c90e936483a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        pdf1: pdf1
+    },
+
 
 ]
 
@@ -23,7 +43,7 @@ const HomeoUpdates = () => {
 
     return (
         <>
-            <Banner title='Clinical Case Studies/Articles' />
+            <Banner title='Homeo Updates' />
             <Container>
                 <Row className='mb-5 mt-5'>
                     {/* <div className='mainDiv'>
@@ -74,7 +94,7 @@ const HomeoUpdates = () => {
                     {homeoUpdates.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                            <img style={{ borderRadius: '20px',width:'300px',height:'200px',objectFit:'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>

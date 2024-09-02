@@ -10,6 +10,25 @@ const DoctorsDetails = () => {
         {
             id: 1,
             title: 'Journey Of Doctor R.N Wahi',
+            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
+            pdf1: pdf1,
+        },
+        {
+            id: 2,
+            title: 'Journey Of Dr. Randeep Guleria',
+            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
+            pdf1: pdf1,
+        },
+        {
+            id: 3,
+            title: 'Journey Of Dr. Sudhansu Bhattacharyya',
+            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
+            pdf1: pdf1,
+        },
+        {
+            id: 4,
+            title: 'Journey Of Dr. B. Soma Raju',
+            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
             pdf1: pdf1,
         },
 
@@ -61,7 +80,7 @@ const DoctorsDetails = () => {
                     {doctorsList.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                                <img style={{ borderRadius: '20px' }} src="https://placehold.co/300x200" alt="" />
+                            <img style={{ borderRadius: '20px', width: '300px', height: '200px', objectFit: 'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>
