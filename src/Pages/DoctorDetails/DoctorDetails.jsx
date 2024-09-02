@@ -129,7 +129,7 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
-            <h6 className='subBannerHeading'>Guidelines for Doctor’s Journey Submission</h6>
+            <h6 className='subBannerHeading'><a href="https://sbl-doc-pages.vercel.app/static/media/case-study-1.0f00719b5f2f754dcc01.pdf">Guidelines for Article Submission</a></h6>
         </div>
     )
 }

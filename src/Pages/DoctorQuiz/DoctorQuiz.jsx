@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import pdf1 from './Data/doc-quiz-1.pdf'
+import whatsappIcon from './Data/whatsapp.png'
 import '../Toolbar.css'
 
 
@@ -11,7 +12,7 @@ const doctorQuiz = [
     {
         id: 1,
         title: 'DOCTOR’S QUIZ OF THE MONTH (September)',
-        img:'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
         pdf1: pdf1
     },
 
@@ -24,7 +25,7 @@ const DoctorQuiz = () => {
     //     setSelectPdf(pdf)
     // };
 
-    
+
     return (
         <>
             <Banner title='Doctor’s Quiz of the Month' />
@@ -82,7 +83,7 @@ const DoctorQuiz = () => {
                     {doctorQuiz.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                            <img style={{ borderRadius: '20px', width: '300px', height: '200px', objectFit: 'cover' }} src={item.img} alt="" />
+                                <img style={{ borderRadius: '20px', width: '300px', height: '200px', objectFit: 'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>
@@ -107,14 +108,18 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
-            <h6 className='subBannerHeading'>
+            <h6 style={{gap:'10px'}} className='subBannerHeading d-flex'>
                 Submit your answer on
                 <a
                     href="https://wa.me/918851654420"
                     target="_blank"
                     style={{ textDecoration: 'none', color: 'inherit' }} rel="noreferrer" // Inline style to remove underline and keep text color
                 >
-                    <span> 8851654420</span>
+
+                    <div className='d-flex justify-content-center'>
+                        <img src={whatsappIcon} alt="" />
+                        <span> 8851654420</span>
+                    </div>
                 </a>
             </h6>
         </div>
