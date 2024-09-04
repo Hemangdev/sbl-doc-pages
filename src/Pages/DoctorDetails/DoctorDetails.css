@@ -31,6 +31,7 @@
 .cardTitle{
     font-size: 17px;
     color: #4065af;
+    text-align: center;
 }
 @media (max-width:600px){
 
