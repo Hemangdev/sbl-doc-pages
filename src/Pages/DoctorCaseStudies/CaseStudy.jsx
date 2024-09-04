@@ -7,7 +7,7 @@ import guidlines from './Authors- guidelines.pdf'
 const caseStudies = [
     {
         id: 1,
-        title: 'Management of Myositis Ossificans with Homoeopathy',
+        title: 'Management of Myositis Ossificans with Homoeopathy-  (A Case Report)',
         img:'https://plus.unsplash.com/premium_photo-1664301747246-ca55593015f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FzZSUyMHN0dWR5fGVufDB8fDB8fHww',
         pdf1: pdf1
     },

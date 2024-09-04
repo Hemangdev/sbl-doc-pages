@@ -5,7 +5,7 @@ import '../Toolbar.css'
 
 
 
-// Data Array
+// Data Array   
 const diseaseData = [
     {
         id: 1,
