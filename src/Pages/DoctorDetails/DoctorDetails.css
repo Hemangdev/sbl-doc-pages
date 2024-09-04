@@ -26,10 +26,10 @@
 }
 
 .cardBox{
-    width: 330px; 
+    width: 270px;   
 }
 .cardTitle{
-    font-size: 21px;
+    font-size: 17px;
     color: #4065af;
 }
 @media (max-width:600px){

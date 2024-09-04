@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import pdf1 from './Journey of Dr. R.N Wahi.pdf'
+import pdf1 from './Journey of Dr. R.N Wahi.pdf' 
+import downloadFile from './guidlines-doctor.pdf'
 import './DoctorDetails.css'
 
 const DoctorsDetails = () => {
@@ -13,24 +14,7 @@ const DoctorsDetails = () => {
             img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
             pdf1: pdf1,
         },
-        {
-            id: 2,
-            title: 'Journey Of Dr. Randeep Guleria',
-            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
-            pdf1: pdf1,
-        },
-        {
-            id: 3,
-            title: 'Journey Of Dr. Sudhansu Bhattacharyya',
-            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
-            pdf1: pdf1,
-        },
-        {
-            id: 4,
-            title: 'Journey Of Dr. B. Soma Raju',
-            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
-            pdf1: pdf1,
-        },
+         
 
 
 
@@ -56,7 +40,7 @@ const DoctorsDetails = () => {
 
     return (
         <>
-            <Banner title='Journey Of Doctor' />
+            <Banner title='The Journey of a Doctor' />
 
             <Container>
                 <Row className='mb-5 mt-5'>
@@ -80,7 +64,7 @@ const DoctorsDetails = () => {
                     {doctorsList.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                            <img style={{ borderRadius: '20px', width: '300px', height: '200px', objectFit: 'cover' }} src={item.img} alt="" />
+                            <img style={{ borderRadius: '20px',width:'200px',height:'180px',objectFit:'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>
@@ -129,7 +113,7 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
-            <h6 className='subBannerHeading'><a target='_blank' href="https://sbl-doc-pages.vercel.app/static/media/case-study-1.0f00719b5f2f754dcc01.pdf" rel="noreferrer">Guidelines for Doctor's Subbmission</a></h6>
+            <h6 className='subBannerHeading'><a target='_blank' href={downloadFile} rel="noreferrer">Guidelines for Doctor’s Journey Submission</a></h6>
         </div>
     )
 }

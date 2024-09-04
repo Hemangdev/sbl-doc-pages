@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import pdf1 from './Case-studies/case-study-1.pdf'
+import guidlines from './Authors- guidelines.pdf'
 
 
 const caseStudies = [
@@ -10,24 +11,7 @@ const caseStudies = [
         img:'https://plus.unsplash.com/premium_photo-1664301747246-ca55593015f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FzZSUyMHN0dWR5fGVufDB8fDB8fHww',
         pdf1: pdf1
     },
-    {
-        id: 2,
-        title: 'Innovative Approaches to Affordable Cardiac Care',
-        img:'https://images.unsplash.com/photo-1581447109200-bf2769116351?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhc2UlMjBzdHVkeXxlbnwwfHwwfHx8MA%3D%3D',
-        pdf1: pdf1
-    },
-    {
-        id: 3,
-        title: 'Homeopathy in the Treatment of Chronic Migraine',
-        img:'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhc2UlMjBzdHVkeXxlbnwwfHwwfHx8MA%3D%3D',
-        pdf1: pdf1
-    },
-    {
-        id: 4,
-        title: 'Homeopathic Interventions in Autoimmune Disorders',
-        img:'https://plus.unsplash.com/premium_photo-1675018083368-3fe2b1cbd530?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWVvcGF0aHklMjBjYXNlJTIwc3R1ZHl8ZW58MHx8MHx8fDA%3D',
-        pdf1: pdf1
-    },
+    
      
      
 
@@ -77,7 +61,7 @@ const CaseStudy = () => {
                     {caseStudies.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{textDecoration:'none'}} href={item.pdf1} target='_blank' rel="noreferrer">
-                            <img style={{ borderRadius: '20px',width:'300px',height:'200px',objectFit:'cover' }} src={item.img} alt="" />
+                            <img style={{ borderRadius: '20px',width:'200px',height:'180px',objectFit:'cover' }} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a> 
                         </div>
@@ -105,7 +89,7 @@ export const Banner = ({ title }) => {
     return (
         <div className='bannerBody'>
             <h1 className='bannerHeading'>{title}</h1>
-            <h6 className='subBannerHeading'><a target='_blank' href="https://sbl-doc-pages.vercel.app/static/media/case-study-1.0f00719b5f2f754dcc01.pdf" rel="noreferrer">Guidelines for Article Submission</a></h6>
+            <h6 className='subBannerHeading'><a target='_blank' href= {guidlines} rel="noreferrer">Guidelines for Article Submission</a></h6>
         </div>
     )
 }
