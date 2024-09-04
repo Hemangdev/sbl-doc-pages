@@ -13,12 +13,7 @@ const homeoUpdates = [
         img: 'https://images.unsplash.com/photo-1563213126-a4273aed2016?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
         pdf1: pdf1
     },
-    {
-        id: 2,
-        title: 'Vital Force and Potentization',
-        img: 'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
-        pdf1: pdf1
-    },
+    
     
 
 
