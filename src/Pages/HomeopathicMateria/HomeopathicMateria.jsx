@@ -79,7 +79,7 @@ const HomeopathicMateria = () => {
                     {homeopathicMateria.map((item, index) => {
                         return <div key={index} className='cardBox'>
                             <a style={{ textDecoration: 'none' }} href={item.pdf1} target='_blank' rel="noreferrer">
-                            <img style={{ borderRadius: '20px',width:'270px',height:'180px',objectFit:'cover' }} src={item.img} alt="" />
+                            <img style={{ borderRadius: '20px',width:'270px',height:'180px'}} src={item.img} alt="" />
                                 <h3 className='cardTitle mt-4'>{item.title}</h3>
                             </a>
                         </div>
