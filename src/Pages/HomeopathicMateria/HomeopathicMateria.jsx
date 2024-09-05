@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import pdf1 from './HomeopathicPdf/nux-vumica-1.pdf'
 import '../Toolbar.css'
+import realImg from './Nux Vomica.jpg'
 
 
 
 const homeopathicMateria = [
     {
         id: 1,
-        title: 'NUX VOMICA',
-        img: 'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        title: 'Nux Vomica',
+        img: realImg,
         pdf1: pdf1
     },
 
@@ -25,7 +26,7 @@ const HomeopathicMateria = () => {
 
     return (
         <>
-            <Banner title='Homeopathic Materia' />
+            <Banner title='Homoeopathic Materia Medica' />
             <Container>
                 <Row className='mb-5 mt-5'>
                     {/* <div className='mainDiv'>

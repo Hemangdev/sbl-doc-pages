@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import pdf1 from './Journey of Dr. R.N Wahi.pdf' 
 import downloadFile from './guidlines-doctor.pdf'
 import './DoctorDetails.css'
+import realImg from './Dr. RN Wahi.jpg'
 
 const DoctorsDetails = () => {
 
@@ -11,7 +12,7 @@ const DoctorsDetails = () => {
         {
             id: 1,
             title: 'Dr. R.N. Wahi',
-            img:'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
+            img: realImg,
             pdf1: pdf1,
         },
          

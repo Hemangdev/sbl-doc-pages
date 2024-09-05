@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import pdf1 from './Data/doc-quiz-1.pdf'
 import whatsappIcon from './Data/whatsapp.png'
+import realImg from "./Doctor's Quiz of the Month september post.jpg"
 import '../Toolbar.css'
 
 
@@ -11,8 +12,8 @@ import '../Toolbar.css'
 const doctorQuiz = [
     {
         id: 1,
-        title: 'DOCTOR’S QUIZ OF THE MONTH (September)',
-        img: 'https://images.unsplash.com/photo-1593491205049-7f032d28cf5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        title: 'September',
+        img: realImg,
         pdf1: pdf1
     },
 

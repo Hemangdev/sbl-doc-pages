@@ -37,7 +37,7 @@ const DoctorsCorner = () => {
         {
             id: 2,
             img: img2,
-            title: 'Disease and Their Homoeopathic Approach',
+            title: 'Diseases and Their Homoeopathic Approach',
             desc: 'Gain an in-depth understanding of different diseases and the corresponding homoeopathic approaches. This section provides comprehensive information on how homoeopathy can be effectively used to treat a wide range of medical conditions.',
             redirectTo: '/disease-details',
         },
@@ -161,17 +161,18 @@ const DoctorsCorner = () => {
                                 <div className='underline'></div>
                             </h4>
 
-                            <div className=''>
+                            <div style={{display:'flex',flexDirection:'column',textDecoration:'none'}} className=''>
                                 {
                                     doctorCornerData.map((item, id) => {
-                                        return <li
-                                            href={item.redirectTo}
+                                        return <Link
+                                            to={item.redirectTo}
                                             key={item.id}
                                             className='list-nav'
+                                            style={{textDecoration:'none !important'}}
 
                                         >
                                             {item.title}
-                                        </li>
+                                        </Link>
                                     })
                                 }
                             </div>

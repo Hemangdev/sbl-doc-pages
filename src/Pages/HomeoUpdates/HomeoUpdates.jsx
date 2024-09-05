@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import '../Toolbar.css'
 import pdf1 from './PdfData/homeo-pdf-1.pdf';
+import realImg from './CCRH Research Fellow Vacancy.jpg'
 
 
 const homeoUpdates = [
     {
         id: 1,
-        title: 'CCRS Research Fellow Vacancy',
-        img:'https://plus.unsplash.com/premium_photo-1661425502756-4cee84bedbfc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWVvcGF0aHklMjAlMjBuZXdzfGVufDB8fDB8fHww',
+        title: 'CCRH Research Fellow Vacancy',
+        img: realImg,
         pdf1: pdf1
     },
     

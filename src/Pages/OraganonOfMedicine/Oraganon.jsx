@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import pdf1 from './OrganonPdf/organon-pdf-2.pdf'
 import '../Toolbar.css'
+import realImg from './Mission of the Physician.jpg'
 
 
 
@@ -10,7 +11,7 @@ const homeoUpdates = [
     {
         id: 1,
         title: 'Mission of the Physician',
-        img: 'https://images.unsplash.com/photo-1563213126-a4273aed2016?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fG1lZGljaW5lJTIwbmV3c3xlbnwwfHwwfHx8MA%3D%3D',
+        img: realImg,
         pdf1: pdf1
     }, 
 ]

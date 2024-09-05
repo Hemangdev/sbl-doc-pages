@@ -65,6 +65,7 @@
     font-weight: 600;
     padding: 12px 22px;
     cursor: pointer;
+    text-decoration: none;
     transition: 0.3s ease;
 }
 .list-nav:hover{

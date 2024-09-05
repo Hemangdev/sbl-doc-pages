@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import pdf1 from './DataPdf/disease-1.pdf';
 import '../Toolbar.css'
+import realImg from './Parkinsons disease.jpg';
 
 
 
@@ -10,7 +11,7 @@ const diseaseData = [
     {
         id: 1,
         title: "Parkinson's Disease",
-        img:'https://media.istockphoto.com/id/669895948/photo/scientist-holding-pill-bottle-and-digital-tablet.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q8J_Y-rQbzZXKnTXBqtDVLqYjLkxMGyRNV02oVxBtlo=',
+        img: realImg,
         pdf1: pdf1
 
     },
