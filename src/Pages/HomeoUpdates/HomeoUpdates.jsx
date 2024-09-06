@@ -27,7 +27,7 @@ const HomeoUpdates = () => {
 
     return (
         <>
-            <Banner title='Homeo Updates' />
+            <Banner title='Homoeo Updates' />
             <Container>
                 <Row className='mb-5 mt-5'>
                     {/* <div className='mainDiv'>
