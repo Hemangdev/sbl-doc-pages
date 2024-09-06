@@ -7,7 +7,7 @@ const AuthPagesCheck = ({ current }) => {
 
     const location = useLocation();
     return (
-        !CheckAuth() ? current : <Navigate to={`${public_path}/home`} state={{ from: location }} replace />
+        !CheckAuth() ? current : <Navigate to={`${public_path}`} state={{ from: location }} replace />
     )
 }
 

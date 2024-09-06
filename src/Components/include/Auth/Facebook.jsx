@@ -25,7 +25,7 @@ const Facebook = () => {
             localStorage.setItem('token', data?.data?.access_token)
             toast.success("Successfully Login..!!");
             setData(data?.data?.user)
-            navigate(`${public_path}/home`);
+            navigate(`${public_path}`);
             window.location.reload()
         }
         else {

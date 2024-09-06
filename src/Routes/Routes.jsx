@@ -75,7 +75,7 @@ const Routes = () => {
           <Route path={public_path} element={<Layout current={<Outlet />} />}>
             <Route path="" element={<Home />} />
             <Route path="index.html" element={<Home />} />
-            <Route path="home" element={<Home />} />
+            <Route path="*" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="product" element={<Product />} />
             <Route path="product/:slug" element={<ProductByCategory />} />

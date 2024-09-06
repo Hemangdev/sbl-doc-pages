@@ -1,7 +1,7 @@
 const routes = [
     { path: '/', exact: true },
     { path: '/index.html' },
-    { path: '/home' },
+    // { path: '/home' },
     { path: '/about' },
     { path: '/product' },
     { path: '/product-search' },

@@ -62,7 +62,7 @@ const displayRazorpay = async (dataToSend) => {
                     localStorage.removeItem('address')
                     alert('Order Has been Placed successfully.')
                     hideLoader()
-                    var url = window.location.href.substring(0, window.location.href.lastIndexOf('/')) + '/home'
+                    var url = window.location.href.substring(0, window.location.href.lastIndexOf('/')) + '/sblglobal.com'
                     return window.location.replace(url);
                 }
                 else {

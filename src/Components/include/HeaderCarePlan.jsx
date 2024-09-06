@@ -1,6 +1,7 @@
 import React, { memo, useState } from "react";
 import { Carousel, Container, Navbar } from "react-bootstrap"
 import { useEffect } from "react";
+// import WhatsappIcon from "../../image/whatsapp.svg";
 import { Link } from "react-router-dom";
 
 const public_path = process.env.REACT_APP_PUBLIC_URL

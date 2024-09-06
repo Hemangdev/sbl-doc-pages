@@ -82,7 +82,7 @@ const Header = (props) => {
 	return (
 		<Navbar bg="light" expand="lg" expanded={expanded}>
 			<Container fluid className="align-items-start border-end header-padding">
-				<Navbar.Brand as={Link} to={`${public_path}/home`}>
+				<Navbar.Brand as={Link} to={`${public_path}`}>
 					<img src={path + logo} alt={application_name} className="d-inline-block align-top d-none d-lg-block" height={130} max-width={100} />
 					<span className="ms-1 fw-bold text-uppercase text-success d-md-block d-lg-none">{application_name}</span>
 				</Navbar.Brand>
@@ -100,7 +100,7 @@ const Header = (props) => {
 				<Navbar.Collapse className="flex-column">
 					<div className="border-bottom d-md-block d-lg-flex w-100 height-75">
 						<Nav className="me-auto topmenu">
-							<Link onClick={() => setExpanded(false)} className={`nav-link ${(public_path + '/home' === path_url) || (public_path + '/' === path_url) ? "activeLink" : ""}`} to={`${public_path}/home`}>HOME</Link>
+							<Link onClick={() => setExpanded(false)} className={`nav-link ${(public_path + '' === path_url) || (public_path + '/' === path_url) ? "activeLink" : ""}`} to={`${public_path}`}>HOME</Link>
 							<NavDropdown title="ABOUT US" className="">
 								<NavDropdown.Item onClick={() => setExpanded(false)} className="mx-0 py-1" style={{ height: 'auto', borderBottom: '1.5px solid transparent' }} as={Link} to={`${public_path}/about`}> Company Profile </NavDropdown.Item>
 								<NavDropdown.Item onClick={() => setExpanded(false)} className="mx-0 py-1" style={{ height: 'auto', borderBottom: '1.5px solid transparent' }} as={Link} to={`${public_path}/chairman-s-message`}> Chairman's Message </NavDropdown.Item>
